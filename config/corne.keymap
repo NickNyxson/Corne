@@ -28,64 +28,74 @@
     combos {
         compatible = "zmk,combos";
 
-        Left_Bracket {
+        Right_Bracket {
             bindings = <&kp LEFT_BRACKET>;
             key-positions = <4 5>;
         };
 
-        Right_Bracket {
+        Left_Parethesis {
             bindings = <&kp RIGHT_BRACKET>;
             key-positions = <6 7>;
         };
 
-        Left_Parethesis {
+        Right_Parenthesis {
             bindings = <&kp LEFT_PARENTHESIS>;
             key-positions = <16 17>;
         };
 
-        Right_Parenthesis {
+        Left_Brace {
             bindings = <&kp RIGHT_PARENTHESIS>;
             key-positions = <18 19>;
         };
 
-        Left_Brace {
+        Right_Brace {
             bindings = <&kp LEFT_BRACE>;
             key-positions = <28 29>;
         };
 
-        Right_Brace {
+        Back_Slash {
             bindings = <&kp RIGHT_BRACE>;
             key-positions = <30 31>;
         };
 
-        Back_Slash {
+        Slash {
             bindings = <&kp BACKSLASH>;
             key-positions = <4 31>;
         };
 
-        Slash {
+        Backspace {
             bindings = <&kp SLASH>;
             key-positions = <28 7>;
         };
 
-        Backspace {
+        Delete {
             bindings = <&kp BACKSPACE>;
             key-positions = <3 4>;
         };
 
-        Delete {
+        Toggle_Gaming_Layer {
             bindings = <&kp DELETE>;
             key-positions = <7 8>;
         };
 
-        Toggle_Gaming_Layer {
+        Minus {
             bindings = <&tog 4>;
             key-positions = <0 1>;
         };
 
-        Minus {
+        Minus_Underscore {
             bindings = <&kp MINUS>;
             key-positions = <19 20>;
+        };
+
+        Equal_Plus {
+            bindings = <&kp EQUAL>;
+            key-positions = <31 32>;
+        };
+
+        Multiply {
+            bindings = <&kp ASTERISK>;
+            key-positions = <7 8>;
         };
     };
 
