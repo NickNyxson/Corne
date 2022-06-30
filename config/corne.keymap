@@ -72,6 +72,21 @@
             bindings = <&tog 4>;
             key-positions = <0 1>;
         };
+        
+        Minus_Underscore {
+            bindings = <&kp MINUS>;
+            key-positions = <19 20>;
+        };
+
+        Equal_Plus {
+            bindings = <&kp EQUAL>;
+            key-positions = <31 32>;
+        };
+
+        Multiply {
+            bindings = <&kp ASTRK>;
+            key-positions = <20 21>;
+        };
     };
 
     macros {
