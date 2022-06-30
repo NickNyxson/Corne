@@ -72,61 +72,6 @@
             bindings = <&tog 4>;
             key-positions = <0 1>;
         };
-                
-        F1 {
-            bindings = <&kp F1>;
-            key-positions = <1 2>;
-        };
-
-        F2 {
-            bindings = <&kp F2>;
-            key-positions = <1 3>;
-        };
-
-        F3 {
-            bindings = <&kp F3>;
-            key-positions = <1 4>;
-        };
-
-        F4 {
-            bindings = <&kp F4>;
-            key-positions = <1 5>;
-        };
-
-        F5 {
-            bindings = <&kp F5>;
-            key-positions = <2 3>;
-        };
-
-        F6 {
-            bindings = <&kp F6>;
-            key-positions = <2 4>;
-        };
-
-        F7 {
-            bindings = <&kp F7>;
-            key-positions = <2 5>;
-        };
-
-        F9 {
-            bindings = <&kp F9>;
-            key-positions = <3 5>;
-        };
-
-        F10 {
-            bindings = <&kp F10>;
-            key-positions = <1 2 3>;
-        };
-
-        F11 {
-            bindings = <&kp F11>;
-            key-positions = <1 2 4>;
-        };
-
-        F12 {
-            bindings = <&kp F12>;
-            key-positions = <1 2 5>;
-        };
     };
 
     macros {
