@@ -28,27 +28,32 @@
     combos {
         compatible = "zmk,combos";
 
+        ESCAPE_Combo {
+            bindings = <&kp ESC>;
+            key-positions = <19 20>;
+        };
+
         Left_Bracket {
             bindings = <&kp LEFT_BRACKET>;
             key-positions = <4 5>;
         };
 
-         Right_Bracket {
+        Right_Bracket {
             bindings = <&kp RIGHT_BRACKET>;
             key-positions = <6 7>;
         };
 
-          Left_Parenthesis {
+        Left_Parethesis {
             bindings = <&kp LEFT_PARENTHESIS>;
             key-positions = <16 17>;
         };
 
-        Right_Parethesis {
+        Right_Parenthesis {
             bindings = <&kp RIGHT_PARENTHESIS>;
             key-positions = <18 19>;
         };
 
-         Left_Brace {
+        Left_Brace {
             bindings = <&kp LEFT_BRACE>;
             key-positions = <28 29>;
         };
@@ -58,7 +63,7 @@
             key-positions = <30 31>;
         };
 
-        Backslash {
+        Back_Slash {
             bindings = <&kp BACKSLASH>;
             key-positions = <4 31>;
         };
@@ -68,26 +73,21 @@
             key-positions = <28 7>;
         };
 
-        Toogle_Gaming_Layer {
+        Backspace {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <3 4>;
+        };
+
+        Delete {
+            bindings = <&kp DELETE>;
+            key-positions = <7 8>;
+        };
+
+        Toggle_Gaming_Layer {
             bindings = <&tog 4>;
             key-positions = <0 1>;
         };
-
-        Minus_Underscore {
-            bindings = <&kp MINUS>;
-            key-positions = <19 20>;
-        };
-
-        Equal_Plus {
-            bindings = <&kp EQUAL>;
-            key-positions = <31 32>;
-        };
-
-        Multiply {
-            bindings = <&kp ASTRK>;
-            key-positions = <20 21>;
-        };
-
+    };
 
     macros {
     };
@@ -97,7 +97,7 @@
 
         base {
             bindings = <
-   &kp ESC       &kp Q       &kp W         &kp E         &kp R      &kp T                    &kp Y         &kp U           &kp I       &kp O          &kp P  &kp MINUS
+   &kp TAB       &kp Q       &kp W         &kp E         &kp R      &kp T                    &kp Y         &kp U           &kp I       &kp O          &kp P  &kp MINUS
  &kp LCTRL  &hm LGUI A  &hm LALT S   &hm LCTRL D  &hm LSHIFT F      &kp G                    &kp H  &hm RSHIFT J     &hm RCTRL K  &hm RALT L  &hm RGUI SEMI   &kp APOS
  &kp LSHFT       &kp Z       &kp X         &kp C         &kp V      &kp B                    &kp N         &kp M       &kp COMMA     &kp DOT       &kp FSLH  &kp EQUAL
                                     &kp LEFT_ALT     &kp ENTER  &lt 1 TAB          &lt 2 BACKSPACE     &kp SPACE  &kp LEFT_SHIFT
