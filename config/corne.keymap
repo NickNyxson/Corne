@@ -28,54 +28,44 @@
     combos {
         compatible = "zmk,combos";
 
-        Right_Parenthesis {
+        Left_Brace {
             bindings = <&kp LEFT_BRACKET>;
             key-positions = <4 5>;
         };
 
-        Left_Brace {
+        Right_Brace {
             bindings = <&kp RIGHT_BRACKET>;
             key-positions = <6 7>;
         };
 
-        Right_Brace {
+        Back_Slash {
             bindings = <&kp LEFT_PARENTHESIS>;
             key-positions = <16 17>;
         };
 
-        Back_Slash {
+        Slash {
             bindings = <&kp RIGHT_PARENTHESIS>;
             key-positions = <18 19>;
         };
 
-        Slash {
+        Backspace {
             bindings = <&kp LEFT_BRACE>;
             key-positions = <28 29>;
         };
 
-        Backspace {
+        Delete {
             bindings = <&kp RIGHT_BRACE>;
             key-positions = <30 31>;
         };
 
-        Delete {
+        Toggle_Gaming_Layer {
             bindings = <&kp BACKSLASH>;
             key-positions = <4 31>;
         };
 
-        Toggle_Gaming_Layer {
+        Minus {
             bindings = <&kp SLASH>;
             key-positions = <28 7>;
-        };
-
-        Minus {
-            bindings = <&kp BACKSPACE>;
-            key-positions = <3 4>;
-        };
-
-        Minus_Underscore {
-            bindings = <&kp DELETE>;
-            key-positions = <7 8>;
         };
 
         Minus_Underscore {
@@ -96,6 +86,71 @@
         Multiply {
             bindings = <&kp ASTRK>;
             key-positions = <20 21>;
+        };
+
+        Delete {
+            bindings = <&kp DELETE>;
+            key-positions = <7 8>;
+        };
+
+        F1 {
+            bindings = <&kp F1>;
+            key-positions = <1 2>;
+        };
+
+        F2 {
+            bindings = <&kp F2>;
+            key-positions = <1 3>;
+        };
+
+        F3 {
+            bindings = <&kp F3>;
+            key-positions = <1 4>;
+        };
+
+        F4 {
+            bindings = <&kp F4>;
+            key-positions = <1 5>;
+        };
+
+        F5 {
+            bindings = <&kp F5>;
+            key-positions = <2 3>;
+        };
+
+        F6 {
+            bindings = <&kp F6>;
+            key-positions = <2 4>;
+        };
+
+        F7 {
+            bindings = <&kp F7>;
+            key-positions = <2 5>;
+        };
+
+        F8 {
+            bindings = <&kp F8>;
+            key-positions = <3 4>;
+        };
+
+        F9 {
+            bindings = <&kp F9>;
+            key-positions = <3 5>;
+        };
+
+        F10 {
+            bindings = <&kp F10>;
+            key-positions = <1 2 3>;
+        };
+
+        F11 {
+            bindings = <&kp F11>;
+            key-positions = <1 2 4>;
+        };
+
+        F12 {
+            bindings = <&kp F12>;
+            key-positions = <1 2 5>;
         };
     };
 
