@@ -102,16 +102,6 @@
             bindings = <&kp F3>;
             key-positions = <1 4>;
         };
-
-        F4 {
-            bindings = <&kp F4>;
-            key-positions = <1 5>;
-        };
-
-        F5 {
-            bindings = <&kp F5>;
-            key-positions = <2 3>;
-        };
     };
 
     macros {
