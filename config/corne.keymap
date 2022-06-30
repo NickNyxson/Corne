@@ -28,52 +28,52 @@
     combos {
         compatible = "zmk,combos";
 
-        Left_Parethesis {
+        Right_Parenthesis {
             bindings = <&kp LEFT_BRACKET>;
             key-positions = <4 5>;
         };
 
-        Right_Parenthesis {
+        Left_Brace {
             bindings = <&kp RIGHT_BRACKET>;
             key-positions = <6 7>;
         };
 
-        Left_Brace {
+        Right_Brace {
             bindings = <&kp LEFT_PARENTHESIS>;
             key-positions = <16 17>;
         };
 
-        Right_Brace {
+        Back_Slash {
             bindings = <&kp RIGHT_PARENTHESIS>;
             key-positions = <18 19>;
         };
 
-        Back_Slash {
+        Slash {
             bindings = <&kp LEFT_BRACE>;
             key-positions = <28 29>;
         };
 
-        Slash {
+        Backspace {
             bindings = <&kp RIGHT_BRACE>;
             key-positions = <30 31>;
         };
 
-        Backspace {
+        Delete {
             bindings = <&kp BACKSLASH>;
             key-positions = <4 31>;
         };
 
-        Delete {
+        Toggle_Gaming_Layer {
             bindings = <&kp SLASH>;
             key-positions = <28 7>;
         };
 
-        Toggle_Gaming_Layer {
+        Minus {
             bindings = <&kp BACKSPACE>;
             key-positions = <3 4>;
         };
 
-        Minus {
+        Minus_Underscore {
             bindings = <&kp DELETE>;
             key-positions = <7 8>;
         };
@@ -95,7 +95,7 @@
 
         Multiply {
             bindings = <&kp ASTRK>;
-            key-positions = <7 8>;
+            key-positions = <20 21>;
         };
     };
 
