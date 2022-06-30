@@ -28,57 +28,47 @@
     combos {
         compatible = "zmk,combos";
 
-        Right_Parenthesis {
+        Left_Bracket {
             bindings = <&kp LEFT_BRACKET>;
             key-positions = <4 5>;
         };
 
-         Left_Brace {
+         Right_Bracket {
             bindings = <&kp RIGHT_BRACKET>;
             key-positions = <6 7>;
         };
 
-          Right_Brace {
+          Left_Parenthesis {
             bindings = <&kp LEFT_PARENTHESIS>;
             key-positions = <16 17>;
         };
 
-        Back_Slash {
+        Right_Parethesis {
             bindings = <&kp RIGHT_PARENTHESIS>;
             key-positions = <18 19>;
         };
 
-         Slash {
+         Left_Brace {
             bindings = <&kp LEFT_BRACE>;
             key-positions = <28 29>;
         };
 
-        Backspace {
+        Right_Brace {
             bindings = <&kp RIGHT_BRACE>;
             key-positions = <30 31>;
         };
 
-        Delete {
+        Backslash {
             bindings = <&kp BACKSLASH>;
             key-positions = <4 31>;
         };
 
-        Toggle_Gaming_Layer {
+        Slash {
             bindings = <&kp SLASH>;
             key-positions = <28 7>;
         };
 
-        Minus {
-            bindings = <&kp BACKSPACE>;
-            key-positions = <3 4>;
-        };
-
-        Minus_Underscore {
-            bindings = <&kp DELETE>;
-            key-positions = <7 8>;
-        };
-
-        Minus_Underscore {
+        Toogle_Gaming_Layer {
             bindings = <&tog 4>;
             key-positions = <0 1>;
         };
