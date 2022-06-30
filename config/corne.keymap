@@ -108,11 +108,6 @@
             key-positions = <2 5>;
         };
 
-        F8 {
-            bindings = <&kp F8>;
-            key-positions = <3 4>;
-        };
-
         F9 {
             bindings = <&kp F9>;
             key-positions = <3 5>;
