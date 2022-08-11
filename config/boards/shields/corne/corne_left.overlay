@@ -22,7 +22,3 @@
        		 , <&pro_micro 7 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
       		 ;
 };
-
-&main_encoder {
-    status = "okay";
-};
