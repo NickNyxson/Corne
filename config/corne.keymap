@@ -162,6 +162,7 @@
  &kp LSHFT       &kp Z       &kp X         &kp C         &kp V      &kp B                    &kp N         &kp M       &kp COMMA     &kp DOT       &kp FSLH  &kp EQUAL
                                     &kp LEFT_ALT     &kp ENTER  &lt 1 TAB          &lt 2 BACKSPACE     &kp SPACE  &kp LEFT_SHIFT
             >;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         raise {
