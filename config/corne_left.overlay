@@ -36,7 +36,7 @@ main_encoder: encoder_main {
 
 sensors {
       	compatible = "zmk,keymap-sensors";
-        sensors = <&maint_encoder>;
+        sensors = <&main_encoder>;
    	};
 	
 };
