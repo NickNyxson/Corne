@@ -6,7 +6,6 @@
 
 #include "corne.dtsi"
 
-/ {
 &kscan0 {
 	col-gpios
 		= <&pro_micro 21 GPIO_ACTIVE_HIGH>
@@ -24,6 +23,8 @@
       		 ;
 };
 
+/ {
+
 main_encoder: encoder_main {
         compatible = "alps,ec11";
         label = "MAIN_ENCODER";
@@ -37,5 +38,6 @@ sensors {
       	compatible = "zmk,keymap-sensors";
         sensors = <&maint_encoder>;
    	};
+	
 };
 
