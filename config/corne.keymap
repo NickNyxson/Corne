@@ -164,7 +164,7 @@
                                      &kp C_MUTE     &kp ENTER  &lt 1 TAB          &lt 2 BACKSPACE     &kp SPACE  &kp LEFT_SHIFT
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
+            sensor-bindings = <&inc_dec_kp CW_C_VOLUME_UP CCW_C_VOLUME_DOWN>;
         };
 
         raise {
