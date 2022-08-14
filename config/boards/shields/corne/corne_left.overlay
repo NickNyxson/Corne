@@ -27,3 +27,7 @@
 &main_encoder {
 	status = "okay";
 };
+
+&esc_encoder {
+	status = "okay";
+};
