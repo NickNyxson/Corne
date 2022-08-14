@@ -16,8 +16,8 @@
  	main_encoder: encoder_main {
        		compatible = "alps,ec11";
         	label = "MAIN ENCODER";
-		a-gpios = <&pro_micro 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-      		b-gpios = <&pro_micro 16 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+		a-gpios = <&pro_micro 0 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+      		b-gpios = <&pro_micro 1 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
        		resolution = <4>;
 		status = "okay";
    	};
