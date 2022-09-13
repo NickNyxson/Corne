@@ -205,5 +205,16 @@
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN &inc_dec_kp BACKSPACE DELETE>;
         };
+
+        Davinci_Resolve_Mac {
+            bindings = <
+ &kp LCTRL           &kp J  &kp SPACE         &kp L         &kp A  &trans          &trans  &trans  &trans  &trans  &trans  &trans
+    &trans  &kp LEFT_SHIFT      &kp S         &kp D         &kp W  &trans          &trans  &trans  &trans  &trans  &trans  &trans
+    &trans           &kp Z      &kp C         &kp V  &kp LEFT_WIN  &trans          &trans  &trans  &trans  &trans  &trans  &trans
+                                       &kp LEFT_ALT        &trans  &trans          &trans  &trans  &trans
+            >;
+
+            sensor-bindings = <&inc_dec_kp RIGHT_ARROW LEFT_ARROW &inc_dec_kp KP_MINUS KP_EQUAL>;
+        };
     };
 };
