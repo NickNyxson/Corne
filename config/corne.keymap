@@ -215,7 +215,7 @@
             bindings = <
  &kp LA(LG(Z))           &kp J  &kp SPACE         &kp L         &kp A  &trans          &trans  &trans  &trans  &trans  &trans  &trans
         &trans       &kp LS(D)      &kp S         &kp D         &kp W  &trans          &trans  &trans  &trans  &trans  &trans  &trans
-        &trans           &kp Z      &kp C         &kp V   &kp LWIN(R)  &trans          &trans  &trans  &trans  &trans  &trans  &trans
+        &trans           &kp Z      &kp C         &kp V     &kp LG(R)  &trans          &trans  &trans  &trans  &trans  &trans  &trans
                                       &kp LC(LA(LG(Z)))        &trans  &trans          &trans  &trans  &trans
             >;
 
