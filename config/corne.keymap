@@ -213,13 +213,13 @@
 
         Davinci_Resolve_Mac {
             bindings = <
- &kp LCTRL           &kp J  &kp SPACE         &kp L         &kp A  &trans          &trans  &trans  &trans  &trans  &trans  &trans
-    &trans  &kp LEFT_SHIFT      &kp S         &kp D         &kp W  &trans          &trans  &trans  &trans  &trans  &trans  &trans
-    &trans           &kp Z      &kp C         &kp V  &kp LEFT_WIN  &trans          &trans  &trans  &trans  &trans  &trans  &trans
-                                       &kp LEFT_ALT        &trans  &trans          &trans  &trans  &trans
+ &kp LA(LG(Z))           &kp J  &kp SPACE         &kp L         &kp A  &trans          &trans  &trans  &trans  &trans  &trans  &trans
+        &trans       &kp LS(D)      &kp S         &kp D         &kp W  &trans          &trans  &trans  &trans  &trans  &trans  &trans
+        &trans           &kp Z      &kp C         &kp V   &kp LWIN(R)  &trans          &trans  &trans  &trans  &trans  &trans  &trans
+                                      &kp LC(LA(LG(Z)))        &trans  &trans          &trans  &trans  &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp RIGHT_ARROW LEFT_ARROW &inc_dec_kp KP_MINUS KP_EQUAL>;
+            sensor-bindings = <&inc_dec_kp RIGHT_ARROW LEFT_ARROW &inc_dec_kp LG(KP_MINUS) LG(KP_EQUAL)>;
         };
     };
 };
