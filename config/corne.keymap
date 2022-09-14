@@ -152,6 +152,11 @@
             bindings = <&tog 5>;
             key-positions = <33 34 35>;
         };
+
+        Escape {
+            bindings = <&kp ESC>;
+            key-positions = <8 9>;
+        };
     };
 
     macros {
