@@ -193,7 +193,7 @@
                                    &trans          &trans          &mo 3                    &trans      &trans      &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp DOWN_ARROW UP_ARROW &inc_dec_kp LEFT_ARROW RIGHT_ARROW>;
+            sensor-bindings = <&inc_dec_kp RIGHT_ARROW LEFT_ARROW &inc_dec_kp LA(LSHIFT) LA(LSHIFT)>;
         };
 
         Functions {
